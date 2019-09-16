@@ -1,0 +1,10 @@
+#Autor: Domenico Azael Zamora Nuñez
+#Fecha de creación: 13/09/2019
+
+nombre = input("Nombre: ")
+apellidos = input("Apellidos: ")
+
+nombreCompleto = nombre + " " + apellidos
+
+nombreCompleto = nombreCompleto.upper()
+print(nombreCompleto)
