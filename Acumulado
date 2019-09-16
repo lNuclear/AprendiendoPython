@@ -1,0 +1,16 @@
+#Autor: Domenico Azael Zamora Nuñez
+#Fecha de creación: 13/09/2019
+
+acumulado = int(0)
+numero = str("")
+
+while True:
+    numero = input("Dame un numero entero: ")
+    if numero == "":
+        print("Vacio. Salida del programa")
+        break
+    
+    else:
+        acumulado + int(numero)
+        salida = "Monta acumulado: {}"
+        print(salida.format(acumulado))
