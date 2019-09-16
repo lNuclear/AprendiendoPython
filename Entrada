@@ -1,0 +1,17 @@
+#Autor: Domenico Azael Zamora Nuñez
+#Fecha de creación: 13/09/2019
+
+entrada = input()
+print(type(entrada))
+
+esEntero = (entrada.isdigit() and entrada.find(".")==-1)
+
+#.isdigit() verifica si el dato es un digito string, de ser asi retorna true
+#.find() busca donde esta el caracter que se le pide, en este caso . y retorna la posicion
+#en la que se encuentra (-1), las palabras funcionan como una lista en la que cada palabra
+#ocupa un espacio.
+
+if (esEntero):
+    print("Dato entero.¡Muy bien!")
+else:
+    print("Dato no es entero. Intentar nuevamente.")
